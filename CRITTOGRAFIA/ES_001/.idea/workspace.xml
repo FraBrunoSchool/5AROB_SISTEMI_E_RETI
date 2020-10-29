@@ -19,15 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a35526b-d59b-4580-b46e-c275e8a1e51d" name="Default Changelist" comment="" />
+    <list default="true" id="6a35526b-d59b-4580-b46e-c275e8a1e51d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ES_001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ES_001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="JupyterTrust" id="14581931-f77a-4cdb-99b6-942d23b83cac" />
   <component name="ProjectId" id="1iuA3XtA4BdqLI0VuYx9NHIpsR8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,7 +43,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -51,6 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -62,6 +75,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6a35526b-d59b-4580-b46e-c275e8a1e51d" name="Default Changelist" comment="" />
@@ -69,8 +85,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602746906338</updated>
+      <workItem from="1603724245590" duration="340000" />
+      <workItem from="1603724942715" duration="4146000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -85,25 +106,52 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="191" key="GridCell.Tab.0.bottom" timestamp="1603352992338">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="640" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603724255998">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603724255998" />
+    <state width="1107" height="363" key="GridCell.Tab.0.bottom" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1345" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603352992338" />
-    <state width="1345" height="191" key="GridCell.Tab.0.center" timestamp="1603352992338">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1107" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
+    <state width="1107" height="363" key="GridCell.Tab.0.center" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1345" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603352992338" />
-    <state width="1345" height="191" key="GridCell.Tab.0.left" timestamp="1603352992338">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1107" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
+    <state width="1107" height="363" key="GridCell.Tab.0.left" timestamp="1603741857949">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1345" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603352992338" />
-    <state width="1345" height="191" key="GridCell.Tab.0.right" timestamp="1603352992338">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1107" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857949" />
+    <state width="1107" height="363" key="GridCell.Tab.0.right" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1345" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603352992338" />
+    <state width="1107" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
+    <state width="1107" height="363" key="GridCell.Tab.1.bottom" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1107" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
+    <state width="1107" height="363" key="GridCell.Tab.1.center" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1107" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
+    <state width="1107" height="363" key="GridCell.Tab.1.left" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1107" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
+    <state width="1107" height="363" key="GridCell.Tab.1.right" timestamp="1603741857950">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1107" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603741857950" />
     <state x="346" y="89" key="search.everywhere.popup" timestamp="1602747744542">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602747744542" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ES_001$main.coverage" NAME="main Coverage Results" MODIFIED="1603728331782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
