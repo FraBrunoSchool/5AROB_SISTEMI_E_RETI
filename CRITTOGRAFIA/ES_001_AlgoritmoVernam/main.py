@@ -13,20 +13,22 @@ def main():
     msgNum = stringaInNumber(messaggio)
     keyNum = stringaInNumber(chiave)
     print(f"Messaggio: {msgNum} + Chiave {keyNum}")
-    somma = sommaKeyMsg(keyNum, msgNum)
+
+    somma = sommaModKeyMsg(keyNum, msgNum)
     print(somma)
-    mod = modulo(somma)
-    print(mod)
-    StrLettere = NumToLet(mod)
+
+    StrLettere = NumToLet(somma)
     print(StrLettere)
+
+    # -------decript-------
 
     StrLettereCifr = stringaInNumber(StrLettere)
     print(StrLettereCifr)
-    sotr = sottrKeyMsg(keyNum, StrLettereCifr)
+
+    sotr = sottrModKeyMsg(keyNum, StrLettereCifr)
     print(sotr)
-    modCifr = modulo(sotr)
-    print(modCifr)
-    StrLettereDecifrato = NumToLet(modCifr)
+
+    StrLettereDecifrato = NumToLet(sotr)
     print(StrLettereDecifrato)
 
 
@@ -42,21 +44,14 @@ def stringaInNumber(stringa):
     return num
 
 
-def sommaKeyMsg(chiave, messaggio):
+def sommaModKeyMsg(chiave, messaggio):
     somma = []
     if len(chiave) > len(messaggio):
         for count, n in enumerate(messaggio):
-            somma.append(n + chiave[count])
+            somma.append((n + chiave[count]) % len(dictLet))
     else:
         print("chive non abbastanza lunga")
     return somma
-
-
-def modulo(somma):
-    mod = []
-    for el in somma:
-        mod.append(el % len(dictLet))
-    return mod
 
 
 def NumToLet(mod):
@@ -66,11 +61,11 @@ def NumToLet(mod):
     return StrLettere
 
 
-def sottrKeyMsg(chiave, messaggio):
+def sottrModKeyMsg(chiave, messaggio):
     somma = []
     if len(chiave) > len(messaggio):
         for count, n in enumerate(messaggio):
-            somma.append(n - chiave[count])
+            somma.append((n - chiave[count]) % len(dictLet))
     else:
         print("chive non abbastanza lunga")
     return somma
