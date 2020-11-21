@@ -58,7 +58,7 @@ def is_primo(num):
 
 def mcm(a, b):
     a, b = a - 1, b - 1
-    return int((a * b) / mcd(a if a > b else b, a if a < b else b))
+    return (a * b) // mcd(a if a > b else b, a if a < b else b)
 
 
 def mcd(a, b):
@@ -127,17 +127,6 @@ def criptazione_parola(parola, n, c):
     print(lista_num_crip)
     # parola_criptata = number_in_str(lista_num_crip)
     return lista_num_crip
-
-
-"""
-def decriptazione_parola(parola, n, d):
-    str_num = str_in_number(parola)
-    lista_num_decrip = []
-    for el in str_num:
-        lista_num_decrip.append(decriptazione_numero(n, d, el))
-    parola_decriptata = number_in_str(lista_num_decrip)
-    return parola_decriptata
-"""
 
 
 def decriptazione_parola(lista_num, n, d):
