@@ -7,16 +7,19 @@ dictNum = {}
 
 def main():
     dictLetInNum()
-    p = input_num("p")
-    q = input_num("q")
+   # p = input_num("p")
+   # q = input_num("q")
+    p=17
+    q=11
     n = p * q
     m = mcm(p, q)
     c = find_c(m)
+    #c = 21
     d = find_d(m, c)
 
     print(f"Chiave Pubblica: n = {n} c = {c}")
     print(f"Chiave Privata: m = {m} d = {d}")
-
+    """
     print("test criptazione / decriptazione")
     b = criptazione_numero(n, c, 13)
     print(f"Numero Criptato: b = {b}")
@@ -28,7 +31,7 @@ def main():
     print(f"Parola criptata: {parola_criptata}")
     parola_decriptata = decriptazione_parola(parola_criptata, n, d)
     print(f"Parola decriptata: {parola_decriptata}")
-
+"""
 
 def dictLetInNum():
     for let in dictLet:
@@ -76,6 +79,7 @@ def find_c(m):
         if mcd(c, m) == 1:
             lista_c.append(c)
     return random.choice(lista_c)
+    #return lista_c
 
 
 def find_d(m, c):
