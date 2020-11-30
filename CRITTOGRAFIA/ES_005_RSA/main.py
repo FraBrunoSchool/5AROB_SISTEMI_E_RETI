@@ -9,12 +9,12 @@ def main():
     dictLetInNum()
    # p = input_num("p")
    # q = input_num("q")
-    p=17
-    q=11
+    p=13
+    q=7
     n = p * q
     m = mcm(p, q)
-    c = find_c(m)
-    #c = 21
+    #c = find_c(m)
+    c = 7
     d = find_d(m, c)
 
     print(f"Chiave Pubblica: n = {n} c = {c}")
